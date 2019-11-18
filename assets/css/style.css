@@ -1,0 +1,128 @@
+body {
+    background: radial-gradient(rgb(88, 40, 40), #261203);
+}
+
+#landing{
+    background-color: #fff;
+    min-height: 400px;
+    display: flex;
+}
+
+.logo {
+    height: 300px;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+.navTop {
+    margin-top: 25px;
+}
+
+.socialIcons {
+    font-size: 25px;
+}
+
+.container {
+    max-width: 1350px;
+}
+
+.sliderHeight {
+    height: 550px;
+}
+
+.cardMain {
+    padding: 2%;
+    display: flex;
+}
+
+#footSection {
+    padding: 2%;
+    min-height: 50px;
+    background-color: #170d02;
+}
+
+.gallery img {
+    height:260px;
+    object-fit: co;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer a {
+    color: #fff;
+}
+
+.footerLogo {
+    width: 200px;
+    border-radius: 100%;
+    padding:2%;
+}
+
+.socialList li{
+    display: inline;
+}
+
+.socialList {
+    margin-left: -30px;
+}
+
+#contatti{
+    background-color: #70c3be;
+    letter-spacing: 2px;
+    }
+  #contatti a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  @media (max-width: 575.98px) {
+  
+    #contatti{padding-bottom: 800px;}
+    #contatti .maps iframe{
+      width: 100%;
+      height: 450px;
+    }
+   }
+  
+  
+  @media (min-width: 576px) {
+  
+     #contatti{padding-bottom: 800px;}
+  
+     #contatti .maps iframe{
+       width: 100%;
+       height: 450px;
+     }
+   }
+  
+  @media (min-width: 768px) {
+  
+    #contatti{padding-bottom: 350px;}
+  
+    #contatti .maps iframe{
+      width: 100%;
+      height: 850px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #contatti{padding-bottom: 200px;}
+  
+     #contatti .maps iframe{
+       width: 100%;
+       height: 700px;
+     }
+  }
+  
+  
+  #author a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .teamMain {
+      margin-top: 50px;
+  }
